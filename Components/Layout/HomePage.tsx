@@ -80,7 +80,7 @@ const HomePage = () => {
       <Row className={styles.HomeMainContainer}>
         <Col className={styles.HomeMainBox}>
           {loading && <Loader />}
-          <Container className={styles.HomeMain}>
+          <div className={styles.HomeMain}>
             {jobs?.map((job: jobTypes) => (
               <MainCard job={job} key={job?.id} />
             ))}
@@ -98,7 +98,7 @@ const HomePage = () => {
                 keyword={""}
               />
             </Col>
-          </Container>
+          </div>
         </Col>
         <Col className={styles.HomeMainSideCard}>
           <SideCard />
