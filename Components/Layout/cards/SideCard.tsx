@@ -91,7 +91,7 @@ export const SideCard = () => {
         </Container>
       ) : (
         <Col>
-          <Card className="text-center">
+          <Card className="text-center" style={{ height: "50vh" }}>
             <Card.Header>View Job Details</Card.Header>
             <Card.Body>
               <Card.Title>Apply To Your Dream Job</Card.Title>

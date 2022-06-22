@@ -4,7 +4,7 @@ import NavBar from "./NavBar";
 
 const Layout = ({ children }: any) => {
   return (
-    <>
+    <div className="siteContainer">
       <header>
         <NavBar />
       </header>
@@ -13,7 +13,7 @@ const Layout = ({ children }: any) => {
       <footer>
         <Footer />
       </footer>
-    </>
+    </div>
   );
 };
 
