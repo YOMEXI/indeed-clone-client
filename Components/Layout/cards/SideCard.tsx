@@ -65,7 +65,7 @@ export const SideCard = () => {
               <Col className={styles.cardHeaderCompanyDesc}>
                 {parse(job?.description)}
               </Col>
-              <Col className="d-flex gap-2">
+              <Col className="d-flex gap-2 flex-wrap">
                 <Button
                   variant="primary"
                   className={styles.cardHeaderCompanyLoc}
