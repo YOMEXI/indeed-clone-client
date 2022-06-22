@@ -48,11 +48,11 @@ export const SearchFilters = () => {
   return (
     <Row className="d-flex justify-content-center align-items-center gap-2 my-5">
       <Col
-        lg={8}
+        lg={5}
         md={10}
-        xs={11}
-        sm={11}
-        className="d-flex justify-content-center align-items-center gap-2 my-5"
+        xs={8}
+        sm={8}
+        className="d-flex justify-content-center align-items-center gap-2 flex-wrap my-5"
       >
         {filters?.map((filter: any, i: any) => (
           <Form.Select
