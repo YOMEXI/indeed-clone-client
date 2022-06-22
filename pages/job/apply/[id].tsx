@@ -1,10 +1,7 @@
 import { FormEvent, useState, useEffect } from "react";
 import { Container, Col, Row, Form, Button } from "react-bootstrap";
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
 import axios from "axios";
 import { toast } from "react-toastify";
-import { SMTPClient } from "emailjs";
 import { useAppSelector } from "../../../Components/Layout/redux/reduxHooks";
 import { useRouter } from "next/router";
 import { Loader } from "../../../Components/utils/Loader";
