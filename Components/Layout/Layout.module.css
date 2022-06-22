@@ -1,0 +1,11 @@
+.navBarMainTitle {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.navBarLogo {
+  font-size: 2rem;
+}
